@@ -1,0 +1,765 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://hikarimusic.github.io/TWMLE/physics/SM/ch6/sec1/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Sec1 - TWMLE</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-what-system-are-we-talking-about" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="TWMLE" class="md-header__button md-logo" aria-label="TWMLE" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TWMLE
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Sec1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../%E4%BA%8C%E9%9A%8E%E5%9C%8B%E8%80%83/%E5%A4%96%E7%A7%91%E6%A6%82%E8%AB%96/" class="md-tabs__link">
+          
+  
+  
+  二階國考
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="TWMLE" class="md-nav__button md-logo" aria-label="TWMLE" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    TWMLE
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    二階國考
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    二階國考
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../%E4%BA%8C%E9%9A%8E%E5%9C%8B%E8%80%83/%E5%A4%96%E7%A7%91%E6%A6%82%E8%AB%96/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    外科概論
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-system-are-we-talking-about" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. What system are we talking about?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-distributions-vs-microstates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Distributions vs microstates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-counting-microstates-for-different-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Counting microstates for different statistics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Counting microstates for different statistics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-bosons-boseeinstein-be" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        (a) Bosons – Bose–Einstein (BE)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-fermions-fermidirac-fd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        (b) Fermions – Fermi–Dirac (FD)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-classical-particles-maxwellboltzmann-mb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        (c) Classical particles – Maxwell–Boltzmann (MB)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-entropy-and-most-probable-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Entropy and "most probable" distribution
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-connecting-and-to-thermodynamics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Connecting α and β to thermodynamics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-entropy-and-pressure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Entropy and pressure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-classical-limit-ideal-gas-law" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Classical limit → ideal gas law
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Sec1</h1>
+
+<h2 id="1-what-system-are-we-talking-about">1. What system are we talking about?</h2>
+<ul>
+<li>We have <strong>N identical, non-interacting particles</strong> (a simple ideal gas).</li>
+<li>They are in a box of volume <strong>V</strong> and together have a fixed total energy <strong>E</strong>.</li>
+<li>That's exactly what a <strong>microcanonical ensemble</strong> is: N, V, E are fixed.</li>
+</ul>
+<p>Quantum mechanically, each particle can sit in some <strong>energy level</strong>.
+Because there are so many very closely spaced levels, we group them into <strong>"cells"</strong>:</p>
+<ul>
+<li>Cell <em>i</em> contains <strong>gᵢ</strong> almost-equal energy levels, all around energy <strong>εᵢ</strong>.</li>
+<li><strong>nᵢ</strong> is the number of particles in cell <em>i</em>.</li>
+</ul>
+<p>So:</p>
+<ul>
+<li>Total number of particles: <span class="arithmatex">\(\sum_i n_i = N\)</span></li>
+<li>Total energy:      <span class="arithmatex">\(\sum_i n_i \varepsilon_i = E\)</span></li>
+</ul>
+<hr />
+<h2 id="2-distributions-vs-microstates">2. Distributions vs microstates</h2>
+<p>Two important ideas:</p>
+<ul>
+<li>A <strong>distribution</strong> <span class="arithmatex">\(\{n_i\}\)</span> just tells you <em>how many</em> particles are in each cell.</li>
+<li>A <strong>microstate</strong> tells you <strong>exactly which level each particle occupies</strong>.</li>
+</ul>
+<p>For a given distribution <span class="arithmatex">\(\{n_i\}\)</span>, there are many possible microstates.
+Call that number <strong>W[{nᵢ}]</strong>.</p>
+<p>The <strong>total number of allowed microstates</strong> with the given N, V, E is</p>
+<div class="arithmatex">\[
+\Omega(N,V,E) = \sum_{\{n_i\}}' W[\{n_i\}]
+\]</div>
+<p>(the sum runs over all distributions that satisfy the N and E constraints).</p>
+<p>Because different cells are independent, the number of microstates factorizes:</p>
+<div class="arithmatex">\[
+W[\{n_i\}] = \prod_i w(i),
+\]</div>
+<p>where <strong>w(i)</strong> is the number of microstates inside cell <em>i</em>.</p>
+<p>So the whole problem becomes:
+<strong>How many ways can we put nᵢ particles into gᵢ levels in cell i, depending on the statistics?</strong></p>
+<hr />
+<h2 id="3-counting-microstates-for-different-statistics">3. Counting microstates for different statistics</h2>
+<p>Think "balls into boxes".</p>
+<h3 id="a-bosons-boseeinstein-be">(a) Bosons – Bose–Einstein (BE)</h3>
+<ul>
+<li>Particles are <strong>indistinguishable</strong>.</li>
+<li>Any number of particles can occupy the <strong>same level</strong>.</li>
+</ul>
+<p>This is "n identical balls into g boxes, no limit per box".
+The number of ways is</p>
+<div class="arithmatex">\[
+w_{BE}(i) = \frac{(n_i + g_i - 1)!}{n_i!\,(g_i-1)!}.
+\]</div>
+<p>So for the whole system:</p>
+<div class="arithmatex">\[
+W_{BE}[\{n_i\}] = \prod_i \frac{(n_i + g_i - 1)!}{n_i!\,(g_i-1)!}.
+\]</div>
+<hr />
+<h3 id="b-fermions-fermidirac-fd">(b) Fermions – Fermi–Dirac (FD)</h3>
+<ul>
+<li>Particles are <strong>indistinguishable</strong>.</li>
+<li><strong>At most one particle per level</strong> (Pauli principle).</li>
+</ul>
+<p>So in cell i we just choose <strong>which nᵢ of the gᵢ levels are occupied</strong>:</p>
+<div class="arithmatex">\[
+w_{FD}(i) = \frac{g_i!}{n_i!\,(g_i - n_i)!}.
+\]</div>
+<p>So:</p>
+<div class="arithmatex">\[
+W_{FD}[\{n_i\}] = \prod_i \frac{g_i!}{n_i!\,(g_i - n_i)!}.
+\]</div>
+<hr />
+<h3 id="c-classical-particles-maxwellboltzmann-mb">(c) Classical particles – Maxwell–Boltzmann (MB)</h3>
+<ul>
+<li>Particles are treated as <strong>distinguishable</strong> (classical).</li>
+<li>No restriction on how many particles per level.</li>
+</ul>
+<p>Naively: each of the nᵢ particles can choose any of the gᵢ levels → <span class="arithmatex">\(g_i^{n_i}\)</span> ways.
+But this <strong>overcounts</strong> because swapping two identical particles doesn't make a new physical state, so we divide by <span class="arithmatex">\(n_i!\)</span> (Gibbs correction):</p>
+<div class="arithmatex">\[
+w_{MB}(i) = \frac{g_i^{n_i}}{n_i!},
+\]</div>
+<p>so</p>
+<div class="arithmatex">\[
+W_{MB}[\{n_i\}] = \prod_i \frac{g_i^{n_i}}{n_i!}.
+\]</div>
+<hr />
+<h2 id="4-entropy-and-most-probable-distribution">4. Entropy and "most probable" distribution</h2>
+<p>The <strong>entropy</strong> of the gas in the microcanonical ensemble is</p>
+<div class="arithmatex">\[
+S(N,V,E) = k \ln \Omega(N,V,E) = k \ln \Big[\sum_{\{n_i\}} W[\{n_i\}] \Big].
+\]</div>
+<p>For a macroscopic system, one distribution <span class="arithmatex">\(\{n_i^*\}\)</span> overwhelmingly dominates this sum: the <strong>most probable distribution</strong> (the one with the largest W). Then</p>
+<div class="arithmatex">\[
+S \approx k \ln W[\{n_i^*\}].
+\]</div>
+<p>So the problem becomes:</p>
+<blockquote>
+<p>Find the set <span class="arithmatex">\(\{n_i^*\}\)</span> that maximizes <span class="arithmatex">\(W[\{n_i\}]\)</span>
+subject to <span class="arithmatex">\(\sum_i n_i = N\)</span> and <span class="arithmatex">\(\sum_i n_i \varepsilon_i = E\)</span>.</p>
+</blockquote>
+<p>They do this by:</p>
+<ol>
+<li>Taking <span class="arithmatex">\(\ln W\)</span> (logs turn products into sums).</li>
+<li>Using Stirling's approximation: <span class="arithmatex">\(\ln x! \approx x \ln x - x\)</span> (valid for large x).</li>
+<li>Introducing Lagrange multipliers <strong>α</strong> and <strong>β</strong> to enforce the constraints.</li>
+</ol>
+<p>To treat BE, FD, and MB at once, they introduce a parameter <strong>a</strong>:</p>
+<ul>
+<li>a = −1 → Bose–Einstein</li>
+<li>a = +1 → Fermi–Dirac</li>
+<li>a → 0 → Maxwell–Boltzmann</li>
+</ul>
+<p>After the math, maximizing <span class="arithmatex">\(\ln W\)</span> gives</p>
+<div class="arithmatex">\[
+\ln\left(\frac{g_i}{n_i^*} - a\right) - \alpha - \beta \varepsilon_i = 0.
+\]</div>
+<p>Solving for <span class="arithmatex">\(n_i^*\)</span>:</p>
+<div class="arithmatex">\[
+n_i^* = \frac{g_i}{e^{\alpha + \beta \varepsilon_i} + a}.
+\]</div>
+<p>This is the <strong>general occupation formula</strong>:</p>
+<ul>
+<li><strong>Bosons (BE)</strong>: <span class="arithmatex">\(a = -1\)</span> ⇒ <span class="arithmatex">\(n_i^* = \dfrac{g_i}{e^{\alpha + \beta \varepsilon_i} - 1}\)</span></li>
+<li><strong>Fermions (FD)</strong>: <span class="arithmatex">\(a = +1\)</span> ⇒ <span class="arithmatex">\(n_i^* = \dfrac{g_i}{e^{\alpha + \beta \varepsilon_i} + 1}\)</span></li>
+<li><strong>Classical (MB)</strong>: <span class="arithmatex">\(a \to 0\)</span> ⇒ <span class="arithmatex">\(n_i^* = g_i e^{-\alpha - \beta \varepsilon_i}\)</span></li>
+</ul>
+<p>These are the familiar <strong>Bose-Einstein, Fermi-Dirac, and Maxwell-Boltzmann distributions</strong>.</p>
+<p>Physically, <span class="arithmatex">\(n_i^*/g_i\)</span> is the <strong>most probable number of particles per single-particle level</strong> at energy εᵢ.</p>
+<hr />
+<h2 id="5-connecting-and-to-thermodynamics">5. Connecting α and β to thermodynamics</h2>
+<p>From earlier in the book, they identify</p>
+<div class="arithmatex">\[
+\beta = \frac{1}{kT}, \quad \alpha = -\frac{\mu}{kT},
+\]</div>
+<p>where <strong>T</strong> is temperature and <strong>μ</strong> is chemical potential.</p>
+<p>So the distributions become the usual forms:</p>
+<ul>
+<li>FD: <span class="arithmatex">\(n_i^* = \dfrac{g_i}{e^{(\varepsilon_i - \mu)/kT} + 1}\)</span></li>
+<li>BE: <span class="arithmatex">\(n_i^* = \dfrac{g_i}{e^{(\varepsilon_i - \mu)/kT} - 1}\)</span></li>
+<li>MB: <span class="arithmatex">\(n_i^* = g_i e^{-(\varepsilon_i - \mu)/kT}\)</span></li>
+</ul>
+<hr />
+<h2 id="6-entropy-and-pressure">6. Entropy and pressure</h2>
+<p>They plug <span class="arithmatex">\(n_i^*\)</span> back into the expression for <span class="arithmatex">\(\ln W\)</span>, and after simplifying get</p>
+<div class="arithmatex">\[
+\frac{S}{k} \approx \sum_i \Big[ n_i^* \ln\Big( \frac{g_i}{n_i^*} - a \Big) + \frac{g_i}{a} \ln\Big(1 - a \frac{n_i^*}{g_i}\Big) \Big].
+\]</div>
+<p>This can be rewritten as</p>
+<div class="arithmatex">\[
+\frac{S}{k} = \alpha N + \beta E + \frac{1}{a}\sum_i g_i \ln\Big(1 + a e^{-\alpha - \beta \varepsilon_i}\Big).
+\]</div>
+<p>Using thermodynamics, the combination on the right is related to <strong>PV / kT</strong>, so they arrive at</p>
+<div class="arithmatex">\[
+PV = \frac{kT}{a} \sum_i g_i \ln\Big(1 + a e^{-\alpha - \beta \varepsilon_i}\Big).
+\]</div>
+<p>This is a <strong>general expression for the pressure</strong> of the gas in terms of the microscopic levels and statistics.</p>
+<hr />
+<h2 id="7-classical-limit-ideal-gas-law">7. Classical limit → ideal gas law</h2>
+<p>For the Maxwell–Boltzmann limit (a → 0):</p>
+<ul>
+<li>Use <span class="arithmatex">\(\ln(1 + a x) \approx a x\)</span>.</li>
+<li>Then</li>
+</ul>
+<div class="arithmatex">\[
+PV = kT \sum_i g_i e^{-\alpha - \beta \varepsilon_i}
+= kT \sum_i n_i^*
+= NkT.
+\]</div>
+<p>So you recover the <strong>ideal gas law</strong></p>
+<div class="arithmatex">\[
+PV = NkT,
+\]</div>
+<p>which is independent of the details of the energy levels.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright @ 2026 HikariMusic
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
