@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;1000&display=swap');
+
+:root {
+  --md-text-font: "LXGW WenKai TC", serif;
+  --md-code-font: "Roboto Mono", monospace;
+}
+
+.md-footer, .md-footer-meta {
+  background: #ffffff !important;
+}
+
+.md-footer *,
+.md-footer-meta * {
+  color: rgb(38, 38, 38) !important;
+}
+
+.md-content h1,
+.md-content h2,
+.md-content h3 {
+  font-weight: 700;
+}
