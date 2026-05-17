@@ -4,6 +4,7 @@ site_url: https://hikarimusic.github.io/TWMLE/
 nav:
   - 二階國考:
     - 外科概論: 二階國考/外科概論.md
+    - 神經外科: 二階國考/神經外科.md
 
 theme:
   name: material
