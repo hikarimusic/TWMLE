@@ -1,3 +1,3 @@
-# TWMLE
+# TWMLE Guideline
 
-some random LLM note
+* Contribution: Claude (99%), 董宇光 (1%)
