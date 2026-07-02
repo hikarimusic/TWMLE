@@ -15,3 +15,10 @@
 | | | [大腸直腸外科](醫學五/大腸直腸外科.md) | |
 | | | [骨科](醫學五/骨科.md) | |
 | | | [泌尿科](醫學五/泌尿科.md) | |
+
+
+**Recommendation**: Complete this note Q30D, then Q7D, with 考古題 PRN
+
+**Evidence**: In this N=1 trial, the patient got 175 (#9) on step 1 and xxx (#x) on step 2
+
+**Contribution**: Claude (write most things), 董宇光 (fix structure, add stuff)

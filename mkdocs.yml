@@ -2,6 +2,10 @@ site_name: TWMLE
 site_url: https://hikarimusic.github.io/TWMLE/
 
 nav:
+  - 醫學一:
+    - 生理學: 醫學一/生理學.md
+  - 醫學二:
+    - 藥理學: 醫學二/藥理學.md
   - 醫學三:
     - 心臟內科: 醫學三/心臟內科.md
     - 消化內科: 醫學三/消化內科.md
