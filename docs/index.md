@@ -1,5 +1,11 @@
 # TWMLE Guideline
 
+**Recommendation**: Complete this note Q30D, then Q7D, with 考古題 PRN
+
+**Evidence**: In this N=1 trial, the patient got 345 (#1) on TWMLE step 2
+
+**Contribution**: Claude (write most things), 董宇光 (fix structure, add stuff)
+
 | 醫學三 | 醫學四 | 醫學五 | 醫學六 |
 |--------|--------|--------|--------|
 | [心臟內科](醫學三/心臟內科.md) | [小兒科（上)](醫學四/小兒科上.md) | [外科概論](醫學五/外科概論.md) | [麻醉科](醫學六/麻醉科.md) |
@@ -15,10 +21,3 @@
 | | | [大腸直腸外科](醫學五/大腸直腸外科.md) | |
 | | | [骨科](醫學五/骨科.md) | |
 | | | [泌尿科](醫學五/泌尿科.md) | |
-
-
-**Recommendation**: Complete this note Q30D, then Q7D, with 考古題 PRN
-
-**Evidence**: In this N=1 trial, the patient got 175 (#9) on step 1 and xxx (#x) on step 2
-
-**Contribution**: Claude (write most things), 董宇光 (fix structure, add stuff)
