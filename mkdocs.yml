@@ -55,6 +55,16 @@ nav:
     - 婦科: 醫學六/婦科.md
     - 生殖內分泌科: 醫學六/生殖內分泌科.md
     - 復健科: 醫學六/復健科.md
+  - OSCE:
+    - 理學檢查: OSCE/理學檢查.md
+    - 病史詢問: OSCE/病史詢問.md
+    - 病情解釋: OSCE/病情解釋.md
+    - 技能操作: OSCE/技能操作.md
+    - 內科補充: OSCE/內科補充.md
+    - 外科補充: OSCE/外科補充.md
+    - 婦科補充: OSCE/婦科補充.md
+    - 兒科補充: OSCE/兒科補充.md
+    - 急診補充: OSCE/急診補充.md
 
 theme:
   name: material
