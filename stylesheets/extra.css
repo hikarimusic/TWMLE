@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;1000&display=swap');
+
+:root {
+  --md-text-font: "LXGW WenKai TC", serif;
+  --md-code-font: "Roboto Mono", monospace;
+}
+
+.md-footer, .md-footer-meta {
+  background: #ffffff !important;
+}
+
+.md-footer *,
+.md-footer-meta * {
+  color: rgb(38, 38, 38) !important;
+}
+
+.md-footer-meta .md-copyright a {
+  color: #1976d2 !important;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.md-footer-meta .md-copyright a:hover {
+  color: #0d47a1 !important;
+  text-decoration-thickness: 2px;
+}
+
+.md-content h1,
+.md-content h2,
+.md-content h3 {
+  font-weight: 700;
+}

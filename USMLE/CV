@@ -1,0 +1,98 @@
+# CV
+
+# Patent Foramen Ovale (PFO): USMLE Step 2 CK
+
+**Basics**
+- A PFO is failure of the septum primum and septum secundum to fuse after birth. It is a flap-like opening, not a true tissue defect.
+- It is present in about 25% of adults and is usually asymptomatic and found incidentally.
+- At birth, rising LA pressure closes the flap functionally. When RA pressure rises above LA pressure (Valsalva, coughing, straining, PE, pulmonary HTN), the flap reopens and blood shunts **right to left**.
+- There is no murmur and the exam is normal. This helps separate it from an ASD.
+
+**Classic vignette**
+- A young patient (<60) has a **cryptogenic ischemic stroke or TIA**, often right after a Valsalva-type activity (lifting, straining at stool, coughing).
+- There may be a DVT or recent immobility, such as a long flight.
+- There are no vascular risk factors and no AF.
+- The mechanism is **paradoxical embolism**: a venous clot crosses the PFO into the systemic circulation.
+
+**Other associations**
+- Decompression sickness in divers
+- Migraine with aura
+- Platypnea-orthodeoxia: dyspnea and desaturation when upright
+- Worsening hypoxemia when right-sided pressures rise (PE, RV infarct)
+
+**Diagnosis**
+- **TTE with agitated saline (bubble study)** is the first test. Bubbles appear in the LA within about 3 cardiac cycles, and Valsalva increases sensitivity.
+- **TEE** is more sensitive and better defines the anatomy, including an atrial septal aneurysm.
+- Transcranial Doppler with bubbles is an alternative screening test.
+- The stroke workup must also rule out other causes:
+  - Ambulatory ECG monitoring for AF
+  - Carotid and vertebral imaging
+  - Lower-extremity duplex for DVT
+  - Hypercoagulability testing, if indicated
+
+**Management**
+
+| Scenario | Management |
+|---|---|
+| Incidental, asymptomatic | Nothing (no closure, no antithrombotic) |
+| Cryptogenic stroke, age ~18–60, PFO likely causal (large shunt or atrial septal aneurysm) | **Percutaneous PFO closure plus antiplatelet therapy**, which beats antiplatelet therapy alone |
+| PFO with DVT/PE or another anticoagulation indication | **Anticoagulation**; consider closure case by case |
+| Decompression sickness in a diver | Closure can be considered, or stop diving |
+
+- The **RoPE score** estimates how likely it is that the PFO caused the stroke. A higher score means the PFO is more likely causal.
+- Complications of closure include new-onset AF and device-related problems.
+
+**PFO vs. ASD**
+- **PFO:** a flap with no missing tissue. Shunting is intermittent and right to left. The heart sounds are normal and there is no chamber enlargement.
+- **ASD (secundum type most common):** a true defect. Shunting is **left to right**, causing RA/RV volume overload. Findings are a **fixed split S2** and a pulmonic flow murmur. Untreated, it can progress to Eisenmenger syndrome.
+
+**High-yield one-liner:** A young patient with a stroke after Valsalva and no other cause has a PFO with paradoxical embolism until proven otherwise. Do a bubble echo, look for a DVT, and close the PFO plus give antiplatelet therapy if age ≤60 and the PFO is the likely cause.
+
+# Cardiac Tamponade: USMLE Step 2 CK
+
+**Definition:** Pericardial fluid raises intrapericardial pressure. This compresses the heart and impairs diastolic filling, which lowers stroke volume and cardiac output and leads to obstructive shock. The *rate* of accumulation matters more than the volume.
+
+**Causes**
+- Trauma (penetrating chest wound) or iatrogenic (post-cardiac surgery, catheter or pacemaker perforation)
+- Malignancy (lung, breast, lymphoma), the most common cause of non-traumatic large effusions
+- Pericarditis: viral, uremic, TB, autoimmune (SLE)
+- Aortic dissection (type A) rupturing into the pericardium
+- Post-MI free wall rupture (about 3–7 days after MI)
+
+**Presentation**
+- **Beck triad:** hypotension, JVD, muffled heart sounds
+- Tachycardia, dyspnea, tachypnea, clear lungs
+- **Pulsus paradoxus:** systolic BP falls more than 10 mmHg on inspiration. Inspiration increases RV filling, which bows the septum leftward and reduces LV output.
+- JVP shows a prominent x descent with an **absent y descent**
+- Kussmaul sign is uncommon (think constrictive pericarditis instead)
+
+**Diagnosis**
+- **Bedside echo (or FAST in trauma)** is the test of choice. It shows an effusion with **diastolic collapse of the RA and RV** and a plethoric IVC.
+- **ECG:** sinus tachycardia, low voltage, **electrical alternans** (alternating QRS amplitude from the heart swinging in the fluid)
+- **CXR:** enlarged "water-bottle" heart if the effusion developed slowly; often normal if acute
+- Cardiac cath (rarely needed): equalization of diastolic pressures in all chambers
+
+**Management**
+- **Unstable:** emergent **pericardiocentesis** (echo-guided, subxiphoid approach)
+- **Bridge:** IV fluids to maintain preload
+- **Avoid:** diuretics, nitrates, and other venodilators, which drop preload. Avoid positive-pressure ventilation if possible, since it reduces venous return.
+- **Go to surgery instead of a needle when:**
+  - Trauma: pericardial window, sternotomy, or ED thoracotomy if the patient is arresting
+  - Aortic dissection: emergent surgical repair (pericardiocentesis can worsen bleeding)
+  - Free wall rupture or post-cardiac surgery bleeding
+- **Recurrent or malignant effusion:** pericardial window or pericardiectomy
+- Treat the underlying cause (for example, dialysis for uremic pericarditis)
+
+**Key differentials**
+
+| | Tamponade | Constrictive pericarditis | Tension pneumothorax |
+|---|---|---|---|
+| Key sign | Pulsus paradoxus, Beck triad | Kussmaul sign, pericardial knock | Tracheal deviation, absent breath sounds |
+| JVP | Absent y descent | Prominent, steep y descent | Elevated |
+| Imaging | Effusion with RA/RV collapse | Thick or calcified pericardium | Pneumothorax on exam, ultrasound, or CXR |
+| Treatment | Pericardiocentesis | Pericardiectomy | Needle decompression, then chest tube |
+
+**Classic vignettes**
+- Stab wound to the chest, hypotension, JVD, clear lungs → tamponade, not tension pneumothorax (breath sounds are equal)
+- Hypotension that worsens after intubation → tamponade unmasked by positive-pressure ventilation
+- Lung cancer patient with dyspnea, low voltage, and electrical alternans → malignant effusion with tamponade

@@ -1,0 +1,161 @@
+# CHEST
+
+# Pulmonary Fibrosis (Step 2 High-Yield)
+
+**Idiopathic pulmonary fibrosis (IPF)** is a chronic, progressive fibrosing ILD of unknown cause, with a usual interstitial pneumonia (UIP) pattern. It's a diagnosis of exclusion.
+
+## Classic patient
+- Man, age over 60, ex-smoker
+- Insidious **exertional dyspnea** and **dry cough** over months to years
+- **Bibasilar "Velcro" (fine end-inspiratory) crackles** and **clubbing**
+- Late findings: hypoxemia, pulmonary HTN, cor pulmonale (loud P2, JVD, edema)
+
+## Rule out secondary causes first
+| Category | Examples / clues |
+|---|---|
+| Occupational | Asbestos (shipyard, pleural plaques, lower lobe), silica (sandblasting, eggshell hilar nodes, upper lobe, ↑TB), coal (upper), beryllium (aerospace, sarcoid-like) |
+| Drugs | **Amiodarone, bleomycin, methotrexate, nitrofurantoin**, busulfan, checkpoint inhibitors |
+| Connective tissue disease | Scleroderma (Scl-70), RA, dermatomyositis (anti-Jo-1, mechanic's hands), Sjögren |
+| Hypersensitivity pneumonitis | Birds, moldy hay, hot tubs; upper/mid zones, improves with avoidance |
+| Other | Sarcoidosis, radiation |
+
+**Zones:** Upper = silicosis, coal, sarcoid, berylliosis, chronic HP, TB, ankylosing spondylitis. Lower = IPF, asbestosis, CTD, drugs.
+
+## Workup
+- **PFTs:** restrictive. ↓TLC, ↓FVC, **FEV1/FVC normal or ↑**, **↓DLCO** (often the earliest finding).
+- **ABG:** ↑A–a gradient, desaturation with exertion (6-minute walk test).
+- **CXR:** reticular opacities, lower lobes. Can be normal early.
+- **HRCT is the best diagnostic test.** UIP pattern:
+  - Subpleural, basal reticulation
+  - **Honeycombing**
+  - Traction bronchiectasis
+  - Minimal ground-glass
+- **Serologies** to exclude CTD: ANA, RF, anti-CCP, Scl-70, anti-Jo-1/myositis panel. Plus a thorough exposure and drug history.
+- **Biopsy:** not needed if HRCT shows typical UIP and no secondary cause. If HRCT is indeterminate, get surgical lung biopsy or cryobiopsy via multidisciplinary discussion.
+- **Histology (UIP):** temporal and spatial heterogeneity, **fibroblastic foci**, honeycombing.
+
+## Management
+- **Antifibrotics: pirfenidone or nintedanib.** They slow FVC decline but do not reverse fibrosis.
+  - Pirfenidone side effects: photosensitivity, rash, GI upset, ↑LFTs
+  - Nintedanib (tyrosine kinase inhibitor) side effects: diarrhea, ↑LFTs, bleeding risk
+- **Supportive care:**
+  - Smoking cessation
+  - Supplemental O₂ if SpO₂ ≤88% at rest or with exertion
+  - Pulmonary rehab
+  - Vaccines (influenza, pneumococcal, COVID, RSV)
+- **Lung transplant** is the only cure. Refer early.
+- **Avoid steroids and immunosuppressants in IPF.** Prednisone + azathioprine + NAC increased mortality in the PANTHER trial.
+- **Contrast with steroid-responsive ILDs:** sarcoid, HP (plus antigen avoidance), drug-induced (stop the drug), CTD-ILD, and cryptogenic organizing pneumonia.
+
+## Acute exacerbation
+- Acute worsening over less than 1 month with new bilateral ground-glass opacities.
+- Rule out infection, PE, and heart failure.
+- Often treated with high-dose steroids, plus supportive care.
+- High mortality.
+
+## Prognosis and complications
+- Median survival about **3–5 years**.
+- Complications: pulmonary HTN, cor pulmonale, **↑lung cancer risk**, acute exacerbations, respiratory failure.
+
+## Test-day pearls
+- An elderly smoker with Velcro crackles, clubbing, restrictive PFTs, and ↓DLCO most likely has IPF. Next step is **HRCT**.
+- Cough or dyspnea in a patient on amiodarone or nitrofurantoin points to drug-induced ILD. Stop the drug.
+- Restriction with **normal DLCO** suggests an extrapulmonary cause: obesity, neuromuscular disease, or kyphoscoliosis.
+- IPF + GERD is a common association, but antacid therapy is not a proven IPF treatment.
+
+# Asthma: USMLE Step 2 CK Notes
+
+**Pathophysiology**
+- Chronic airway inflammation (mostly Th2: IL-4, IL-5, IL-13, eosinophils, IgE) → bronchial hyperresponsiveness and **reversible** airflow obstruction
+- Triggers: allergens, viral URI, cold air, exercise, smoke, GERD, NSAIDs/aspirin, β-blockers
+
+**Clinical features**
+- Episodic wheeze, dyspnea, chest tightness, cough that is worse at night or early morning
+- **Cough-variant asthma:** chronic cough as the only symptom
+- Associated conditions:
+  - Atopy (eczema, allergic rhinitis)
+  - **AERD / Samter triad:** asthma + nasal polyps + aspirin/NSAID sensitivity
+  - **ABPA:** asthma, ↑IgE, eosinophilia, central bronchiectasis, fleeting infiltrates. Treat with steroids ± itraconazole.
+  - **EGPA:** asthma, eosinophilia, neuropathy, p-ANCA
+
+**Diagnosis**
+- **Spirometry first:** FEV1/FVC <0.70 (or below LLN), with **↑FEV1 ≥12% and ≥200 mL** after bronchodilator
+- **Normal spirometry but high suspicion:** methacholine challenge. A ≥20% drop in FEV1 is positive. A negative test has a high NPV and essentially rules out asthma.
+- DLCO is **normal or ↑**. A low DLCO points toward COPD or emphysema.
+- ↑FeNO and eosinophils suggest type 2 inflammation
+- CXR is usually normal (hyperinflation during attacks). It is mainly used to exclude pneumonia or pneumothorax.
+
+**Severity classification (NAEPP)**
+
+| | Symptoms / SABA use | Night awakenings | FEV1 |
+|---|---|---|---|
+| Intermittent | ≤2 days/wk | ≤2×/mo | >80% |
+| Mild persistent | >2 days/wk, not daily | 3–4×/mo | >80% |
+| Moderate persistent | Daily | >1×/wk, not nightly | 60–80% |
+| Severe persistent | Throughout the day | Nightly | <60% |
+
+**Stepwise therapy (age ≥12)**
+1. PRN SABA
+2. Daily low-dose ICS + PRN SABA (alternative: PRN ICS-SABA together)
+3. Low-dose ICS-formoterol as both maintenance and reliever (**SMART**)
+4. Medium-dose ICS-formoterol SMART
+5. Medium/high-dose ICS-LABA + **LAMA** (tiotropium); consider a biologic
+6. High-dose ICS-LABA + oral steroid + biologic
+
+- **Before stepping up:** check inhaler technique, adherence, triggers, and comorbidities (GERD, rhinitis, OSA). This is a classic exam answer.
+- Step down once the patient has been controlled for at least 3 months.
+- GINA now discourages SABA-only treatment; low-dose ICS-formoterol PRN is preferred even for mild disease.
+- **Biologics:**
+  - Omalizumab (anti-IgE): allergic phenotype with high IgE
+  - Mepolizumab, reslizumab, benralizumab (IL-5 pathway): eosinophilic phenotype
+  - Dupilumab (IL-4Rα)
+  - Tezepelumab (anti-TSLP)
+
+**Drug pearls**
+- **LABA monotherapy is never used** because it increases asthma-related death. Always pair it with an ICS.
+- ICS can cause oral thrush and dysphonia. Prevent with a spacer and mouth rinsing.
+- Montelukast carries a boxed warning for neuropsychiatric effects (mood changes, suicidality). It is useful for exercise-induced asthma and aspirin-sensitive asthma.
+- Theophylline has a narrow therapeutic window (toxicity: seizures, arrhythmias) and CYP450 interactions; for example, ciprofloxacin and macrolides raise its levels.
+- Avoid nonselective β-blockers.
+- **Exercise-induced bronchoconstriction:** SABA 5–15 min before exercise.
+
+**Acute exacerbation**
+- **First-line treatment:**
+  - O₂ to SpO₂ 93–95%
+  - Nebulized SABA + ipratropium, repeated
+  - **Systemic corticosteroids early** (prednisone 40–50 mg × 5 days, no taper needed)
+- **Severe or refractory:**
+  - IV magnesium sulfate
+  - Consider terbutaline or epinephrine
+- **ABG interpretation:**
+  - Early attack: respiratory alkalosis (low PaCO₂)
+  - **Normal or rising PaCO₂ (≥40) means fatigue and impending respiratory failure.** Intubate.
+- **Ominous signs:**
+  - Silent chest
+  - Altered mental status
+  - Unable to speak in full sentences
+  - Pulsus paradoxus >25 mmHg
+  - Accessory muscle use
+  - Peak flow <25%
+- **Discharge** when PEF is >70% predicted; send home on ICS-containing therapy plus an oral steroid burst.
+
+**Special populations**
+- **Pregnancy:** continue therapy. Budesonide is the preferred ICS. Uncontrolled asthma is riskier to the fetus than the medications.
+- **Children <5:** recurrent wheeze with viral infections; ICS if frequent. Spirometry is not reliable at this age.
+
+**Prevention / health maintenance**
+- Annual influenza vaccine
+- Pneumococcal vaccine (adults 19–64 with asthma qualify)
+- COVID vaccine
+- Smoking cessation
+- Written asthma action plan
+
+**Key differentials**
+- **Vocal cord dysfunction:**
+  - Inspiratory stridor, a flattened *inspiratory* flow-volume loop, and normal oxygenation
+  - Laryngoscopy shows paradoxical cord adduction
+  - Classic in young women or athletes
+- **COPD:** age >40, smoking history, incomplete reversibility, ↓DLCO
+- **Heart failure ("cardiac asthma")**
+- **Foreign body:** unilateral wheeze, usually in a child
+- **Bronchiectasis, ABPA**
